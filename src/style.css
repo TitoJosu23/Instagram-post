@@ -1,0 +1,43 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    border: 3px solid black;
+    height: 640px;
+    width: 550px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-size: 16px;
+    padding: 5px;
+}
+.header{
+    overflow: hidden;
+}
+img{
+    max-width: 550px;
+}
+.fa-ellipsis-v{
+    float: right;
+    padding: 15px;
+    font-size: 35px;
+}
+.fa-html5{
+    float: left;
+    padding: 15px;
+    font-size: 35px;
+}
+.icons{
+    font-size: 33px;
+    padding: 10px;
+}
+.fa-bookmark{
+    float: right;
+    margin-right: 5px;
+}
+.caption{
+    padding: 10px;
+}
